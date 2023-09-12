@@ -53,6 +53,9 @@ sono "matematica" e "matematicaDimostrazione", il primo è per aggiungere note d
 beh avete capito. 
 Aggiungete materiale atomico, ossia, una nota per concetto.
 Potete linkare argomenti tramite le doppie parentesi quadre [[esempio]]
+Una volta crete delle vostre note ricordate di fare una pull request a me, quindi per renderla semplice quando pullate 
+gli appunti createvi un branch separato, e se fate modifiche poi pushatele qui, cosi che io possa approvarle e nel 
+caso fare il merge nel branch ufficiale, ossia main.
 
 
 
