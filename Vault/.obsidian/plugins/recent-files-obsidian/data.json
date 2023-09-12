@@ -1,0 +1,209 @@
+{
+  "recentFiles": [
+    {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
+      "basename": "Errore di propagazione",
+      "path": "Università/Calcolo Numerico/Errore di propagazione.md"
+    },
+    {
+      "basename": "Scelta dei nodi di lagrange",
+      "path": "Università/Calcolo Numerico/Scelta dei nodi di lagrange.md"
+    },
+    {
+      "basename": "Pivoting",
+      "path": "Università/Calcolo Numerico/Pivoting.md"
+    },
+    {
+      "basename": "Indice di condizionamento per un problema di algebra lineare con perturbazioni sul vettore dei termini noti",
+      "path": "Università/Calcolo Numerico/Indice di condizionamento per un problema di algebra lineare con perturbazioni sul vettore dei termini noti.md"
+    },
+    {
+      "basename": "Indice di condizionamento per un problema di algebra lineare",
+      "path": "Università/Calcolo Numerico/Indice di condizionamento per un problema di algebra lineare.md"
+    },
+    {
+      "basename": "indice di condizionamento assoluto",
+      "path": "Università/Calcolo Numerico/indice di condizionamento assoluto.md"
+    },
+    {
+      "basename": "Forward substitution",
+      "path": "Università/Calcolo Numerico/Forward substitution.md"
+    },
+    {
+      "basename": "Fitting dei dati",
+      "path": "Università/Calcolo Numerico/Fitting dei dati.md"
+    },
+    {
+      "basename": "Fattorizzazione PLU",
+      "path": "Università/Calcolo Numerico/Fattorizzazione PLU.md"
+    },
+    {
+      "basename": "Fattorizzazione LU",
+      "path": "Università/Calcolo Numerico/Fattorizzazione LU.md"
+    },
+    {
+      "basename": "Eserciziario",
+      "path": "Università/Calcolo Numerico/Eserciziario.md"
+    },
+    {
+      "basename": "Indice di condizionamento",
+      "path": "Università/Calcolo Numerico/Indice di condizionamento.md"
+    },
+    {
+      "basename": "Indice di condizionamento relativo",
+      "path": "Università/Calcolo Numerico/Indice di condizionamento relativo.md"
+    },
+    {
+      "basename": "l'indice di condizionamento di un problema di algebra lineare è sempre maggiore di uno",
+      "path": "Università/Calcolo Numerico/l'indice di condizionamento di un problema di algebra lineare è sempre maggiore di uno.md"
+    },
+    {
+      "basename": "Lemma sul limite della matrice di iterazione",
+      "path": "Università/Calcolo Numerico/Lemma sul limite della matrice di iterazione.md"
+    },
+    {
+      "basename": "Limiti dell'interpolazione polinomiale",
+      "path": "Università/Calcolo Numerico/Limiti dell'interpolazione polinomiale.md"
+    },
+    {
+      "basename": "Maggiorazioni dell'errore in caso di verifica delle condizioni di convergenza sufficienti per un metodo iterativo",
+      "path": "Università/Calcolo Numerico/Maggiorazioni dell'errore in caso di verifica delle condizioni di convergenza sufficienti per un metodo iterativo.md"
+    },
+    {
+      "basename": "Matrice a diagonale dominante",
+      "path": "Università/Calcolo Numerico/Matrice a diagonale dominante.md"
+    },
+    {
+      "basename": "Matrice tridiagonale",
+      "path": "Università/Calcolo Numerico/Matrice tridiagonale.md"
+    },
+    {
+      "basename": "Metodo di Gauss Naive",
+      "path": "Università/Calcolo Numerico/Metodo di Gauss Naive.md"
+    },
+    {
+      "basename": "Metodo di Gauss Seidel",
+      "path": "Università/Calcolo Numerico/Metodo di Gauss Seidel.md"
+    },
+    {
+      "basename": "Polinomio di Lagrange",
+      "path": "Università/Calcolo Numerico/Polinomio di Lagrange.md"
+    },
+    {
+      "basename": "Polinomio di Chebyschev",
+      "path": "Università/Calcolo Numerico/Polinomio di Chebyschev.md"
+    },
+    {
+      "basename": "Calcolo Numerico",
+      "path": "Università/Calcolo Numerico/Calcolo Numerico.canvas"
+    },
+    {
+      "basename": "Spline cubiche",
+      "path": "Università/Calcolo Numerico/Spline cubiche.md"
+    },
+    {
+      "basename": "Pivoting totale",
+      "path": "Università/Calcolo Numerico/Pivoting totale.md"
+    },
+    {
+      "basename": "Problema ben posto",
+      "path": "Università/Calcolo Numerico/Problema ben posto.md"
+    },
+    {
+      "basename": "Problema ben posto nell'algebra lineare",
+      "path": "Università/Calcolo Numerico/Problema ben posto nell'algebra lineare.md"
+    },
+    {
+      "basename": "Problema dell'interpolazione",
+      "path": "Università/Calcolo Numerico/Problema dell'interpolazione.md"
+    },
+    {
+      "basename": "Problema di algebra lineare",
+      "path": "Università/Calcolo Numerico/Problema di algebra lineare.md"
+    },
+    {
+      "basename": "Problema mal posto",
+      "path": "Università/Calcolo Numerico/Problema mal posto.md"
+    },
+    {
+      "basename": "Problema mal condizionato",
+      "path": "Università/Calcolo Numerico/Problema mal condizionato.md"
+    },
+    {
+      "basename": "Metodo di Jacobi",
+      "path": "Università/Calcolo Numerico/Metodo di Jacobi.md"
+    },
+    {
+      "basename": "Condizione necessaria e sufficiente per la convergenza di un metodo iterativo",
+      "path": "Università/Calcolo Numerico/Condizione necessaria e sufficiente per la convergenza di un metodo iterativo.md"
+    },
+    {
+      "basename": "Back substitution complessità",
+      "path": "Università/Calcolo Numerico/Back substitution complessità.md"
+    },
+    {
+      "basename": "Z-matrice",
+      "path": "Università/Calcolo Numerico/Z-matrice.md"
+    },
+    {
+      "basename": "Raggio spettrale",
+      "path": "Università/Calcolo Numerico/Raggio spettrale.md"
+    },
+    {
+      "basename": "Costruzione di una spline cubica",
+      "path": "Università/Calcolo Numerico/Costruzione di una spline cubica.md"
+    },
+    {
+      "basename": "Spline",
+      "path": "Università/Calcolo Numerico/Spline.md"
+    },
+    {
+      "basename": "Teorema di Weiestrass",
+      "path": "Università/Calcolo Numerico/Teorema di Weiestrass.md"
+    },
+    {
+      "basename": "Autovettore",
+      "path": "Università/Calcolo Numerico/Autovettore.md"
+    },
+    {
+      "basename": "Tasso asintotico di convergenza",
+      "path": "Università/Calcolo Numerico/Tasso asintotico di convergenza.md"
+    },
+    {
+      "basename": "Complessità di un metodo iterativo",
+      "path": "Università/Calcolo Numerico/Complessità di un metodo iterativo.md"
+    },
+    {
+      "basename": "Tasso asintotico medio di convergenza",
+      "path": "Università/Calcolo Numerico/Tasso asintotico medio di convergenza.md"
+    },
+    {
+      "basename": "Back Substitution",
+      "path": "Università/Calcolo Numerico/Back Substitution.md"
+    },
+    {
+      "basename": "Condizionamento del problema di ricerca degli zeri di una funzione",
+      "path": "Università/Calcolo Numerico/Condizionamento del problema di ricerca degli zeri di una funzione.md"
+    },
+    {
+      "basename": "Errore del polinomio interpolante di Newton",
+      "path": "Università/Calcolo Numerico/Errore del polinomio interpolante di Newton.md"
+    },
+    {
+      "basename": "Polinomio di Newton",
+      "path": "Università/Calcolo Numerico/Polinomio di Newton.md"
+    },
+    {
+      "basename": "Controesempio di Rounge",
+      "path": "Università/Calcolo Numerico/Controesempio di Rounge.md"
+    }
+  ],
+  "omittedPaths": [
+    "*.png"
+  ],
+  "maxLength": null,
+  "openType": "tab"
+}

@@ -1,0 +1,10 @@
+{
+  "accentColor": "#aa62d0",
+  "baseFontSize": 19,
+  "theme": "obsidian",
+  "cssTheme": "Tokyo Night",
+  "enabledCssSnippets": [
+    "adaptive_images",
+    "image_zoom2"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "hotkeys": [
+    {
+      "sequence": [
+        {
+          "key": "h",
+          "shift": false,
+          "alt": false,
+          "ctrl": true,
+          "meta": false
+        }
+      ],
+      "commandID": "app:go-back"
+    },
+    {
+      "sequence": [
+        {
+          "key": "l",
+          "shift": false,
+          "alt": false,
+          "ctrl": true,
+          "meta": false
+        }
+      ],
+      "commandID": "app:go-forward"
+    }
+  ]
+}

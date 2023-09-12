@@ -1,0 +1,406 @@
+{
+  "main": {
+    "id": "444d1401acb12757",
+    "type": "split",
+    "children": [
+      {
+        "id": "ecf843a782a7e384",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "524b2129860815d7",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                },
+                {
+                  "title": "Errore di propagazione",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Università/Calcolo Numerico/Errore di propagazione.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":63,\"ch\":51},\"to\":{\"line\":63,\"ch\":51}},\"scroll\":0}"
+                },
+                {
+                  "title": "Scelta dei nodi di lagrange",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Università/Calcolo Numerico/Scelta dei nodi di lagrange.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Pivoting",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Università/Calcolo Numerico/Pivoting.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":13},\"to\":{\"line\":0,\"ch\":13}},\"scroll\":0}"
+                },
+                {
+                  "title": "Indice di condizionamento per un problema di algebra lineare con perturbazioni sul vettore dei termini noti",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Università/Calcolo Numerico/Indice di condizionamento per un problema di algebra lineare con perturbazioni sul vettore dei termini noti.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":4.433691638294251}"
+                },
+                {
+                  "title": "Indice di condizionamento per un problema di algebra lineare",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Università/Calcolo Numerico/Indice di condizionamento per un problema di algebra lineare.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "indice di condizionamento assoluto",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Università/Calcolo Numerico/indice di condizionamento assoluto.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Forward substitution",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Università/Calcolo Numerico/Forward substitution.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Fitting dei dati",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Università/Calcolo Numerico/Fitting dei dati.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                }
+              ]
+            },
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "519c52aea5800f35",
+    "type": "split",
+    "children": [
+      {
+        "id": "3659f28bd4cfdb0a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ab6e5353de12a32e",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          },
+          {
+            "id": "9b1255f1c625697f",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7113285a02f91188",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "80369e69e2702ef0",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b6bccc83cd590279",
+    "type": "split",
+    "children": [
+      {
+        "id": "5496a32054482272",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c28c3778e8a9180a",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Home.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4d8b8f76ec8c6179",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Home.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "551b43a6fb9f60c7",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "80241c92a85cf4ae",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Home.md"
+              }
+            }
+          },
+          {
+            "id": "ae48fe7a88a081a3",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "d122db5633d6bc03",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "7f0abfd6530f2b74",
+            "type": "leaf",
+            "pane-relief:history-v1": {
+              "pos": 0,
+              "stack": [
+                {
+                  "state": "{}",
+                  "eState": "{}"
+                }
+              ]
+            },
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 306.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "publish:Publish changes...": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "notion-like-tables:Create new loom": false,
+      "omnisearch:Omnisearch": false,
+      "homepage:Open homepage": false,
+      "remotely-save:Remotely Save": false
+    }
+  },
+  "active": "524b2129860815d7",
+  "lastOpenFiles": [
+    "Università/Calcolo Numerico/Errore di propagazione.md",
+    "Università/Calcolo Numerico/Scelta dei nodi di lagrange.md",
+    "Università/Calcolo Numerico/Pivoting.md",
+    "Università/Calcolo Numerico/Indice di condizionamento per un problema di algebra lineare con perturbazioni sul vettore dei termini noti.md",
+    "Università/Calcolo Numerico/domande.md",
+    "Università/Calcolo Numerico/Indice di condizionamento per un problema di algebra lineare.md",
+    "Università/Calcolo Numerico/indice di condizionamento assoluto.md",
+    "Università/Calcolo Numerico/Forward substitution.md",
+    "Università/Calcolo Numerico/Fitting dei dati.md",
+    "Università/Calcolo Numerico/Fattorizzazione PLU.md",
+    "Università/Calcolo Numerico/Fattorizzazione LU.md",
+    "Università/Calcolo Numerico/Allegati/diagram-20230912 (1).svg",
+    "Università/Calcolo Numerico/Eserciziario.md",
+    "Università/Calcolo Numerico/Indice di condizionamento.md",
+    "Università/Calcolo Numerico/Indice di condizionamento relativo.md",
+    "Università/Calcolo Numerico/l'indice di condizionamento di un problema di algebra lineare è sempre maggiore di uno.md",
+    "Università/Calcolo Numerico/Lemma sul limite della matrice di iterazione.md",
+    "Università/Calcolo Numerico/Limiti dell'interpolazione polinomiale.md",
+    "Università/Calcolo Numerico/Maggiorazioni dell'errore in caso di verifica delle condizioni di convergenza sufficienti per un metodo iterativo.md",
+    "Università/Calcolo Numerico/Matrice a diagonale dominante.md",
+    "Università/Calcolo Numerico/Matrice tridiagonale.md",
+    "Università/Calcolo Numerico/Metodo di Gauss Naive.md",
+    "Università/Calcolo Numerico/Metodo di Gauss Seidel.md",
+    "Università/Calcolo Numerico/Polinomio di Lagrange.md",
+    "Università/Calcolo Numerico/Polinomio di Chebyschev.md",
+    "Università/Calcolo Numerico/Calcolo Numerico.canvas",
+    "Università/Calcolo Numerico/Spline cubiche.md",
+    "desktop.ini",
+    "Università/Calcolo Numerico/Pivoting totale.md",
+    "Università/Calcolo Numerico/Allegati/diagram-20230912.svg",
+    "Università/Calcolo Numerico/Allegati/diagram-20230909 (2).svg",
+    "Università/Calcolo Numerico/Allegati/bezier-moi.gif",
+    "Università/Calcolo Numerico/Allegati/Pasted image 20230909153506.png",
+    "Università/Calcolo Numerico/Formulario Scritto.pdf",
+    "Università/Calcolo Numerico/Allegati/diagram-20230909 (1).svg",
+    "Università/Calcolo Numerico/Allegati/diagram-20230909.svg",
+    "Allegati/diagram-20230904.svg",
+    "Allegati/diagram-20230903 (4).svg",
+    "Allegati/diagram-20230903 (3).svg",
+    "Università/Università.canvas",
+    "Allegati",
+    "Università/Calcolo Numerico/Autovalore.synctex(busy)",
+    "Università/Calcolo Numerico/pdflatex22597.fls",
+    "Università/Calcolo Numerico/Autovalore.log",
+    "Università/Calcolo Numerico/Autovalore.fdb_latexmk",
+    "Università/Calcolo Numerico/Autovalore.aux",
+    "Università/Calcolo Numerico/Autovalore.fls",
+    "Università/Calcolo Numerico/Autovalore.synctex.gz",
+    "Università/Aws/Aws.canvas",
+    "Università/Fisica/Fisca.canvas",
+    "Università/Fisica/Risoluzione dei problemi/Come risolvere problemi di fisica.canvas",
+    "Miglioramento/Miglioramento.canvas",
+    "Miglioramento/FlowState/Come raggiungere uno stato di flow.canvas",
+    "Home.canvas",
+    "Università/Ingegneria/Ingegneria.canvas",
+    "Università/Ingegneria/esonero workflow.canvas"
+  ]
+}

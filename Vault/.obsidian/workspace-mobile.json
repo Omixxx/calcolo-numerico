@@ -1,0 +1,164 @@
+{
+  "main": {
+    "id": "3d9a3152587e7c79",
+    "type": "split",
+    "children": [
+      {
+        "id": "05e54b8f27507c82",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8d7a246718b3863f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a186e8f52cd3571f",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "7fdc9d1b974b4307",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "53581cdf60188d0f",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "79610e3733993b34",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "454954922bd1fd6d",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {}
+        }
+      },
+      {
+        "id": "bea9b6a80c8ca119",
+        "type": "leaf",
+        "state": {
+          "type": "recent-files",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "217c119957624b5f",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "79a2ab0b6bf583bc",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Home.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "dbc49a72dbe987f3",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Home.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "a85a7dba52470ebe",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Home.md"
+          }
+        }
+      },
+      {
+        "id": "52c33c0ec679d9b0",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "notion-like-tables:Create new loom": false,
+      "omnisearch:Omnisearch": false,
+      "homepage:Open homepage": false,
+      "remotely-save:Remotely Save": false
+    }
+  },
+  "active": "7fdc9d1b974b4307",
+  "lastOpenFiles": [
+    "Home.md",
+    "Università/Calcolo Numerico/Indice di condizionamento per un problema di algebra lineare.md",
+    "Università/Calcolo Numerico/Indice di condizionamento per un problema di algebra lineare con perturbazioni sul vettore dei termini noti.md",
+    "Università/Calcolo Numerico/Indice di condizionamento per un problema di algebra lineare con perturbazioni sul vettore dei termini noti e sulla matrici dei coefficienti.md",
+    "Università/Calcolo Numerico/Problema mal posto.md",
+    "Miglioramento/Miglioramento.canvas"
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "defaultEnvironment": "multline",
+  "customEnvironments": [
+    "cancel"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "collapse-filter": true,
+  "search": "",
+  "showTags": true,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#persona",
+      "color": {
+        "a": 1,
+        "rgb": 1630473
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": -3,
+  "nodeSizeMultiplier": 2.2903703370382,
+  "lineSizeMultiplier": 3.23584124555641,
+  "collapse-forces": false,
+  "centerStrength": 0.668766593169239,
+  "repelStrength": 13.6624218152365,
+  "linkStrength": 0.542051028214013,
+  "linkDistance": 290,
+  "scale": 0.0078125,
+  "close": true
+}

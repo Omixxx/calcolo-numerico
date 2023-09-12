@@ -1,0 +1,593 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\subsubsection{\texorpdfstring{Indice di Condizionamento
+}{Indice di Condizionamento }}\label{indice-di-condizionamento}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Controllare se la matrice è invertibile, se non lo è non si puo
+  calcolare l'indice di condizionamento
+\item
+  Calcolare la norma di \(A\)
+\item
+  Calcolare la triangolare superiore di \(A\)
+\item
+  risolvere i tre sistemi (uno per ogni colonna) usando la tecnica
+  ``Back substitution'' ottenendo l'inversa \(A^{-1}\)
+\item
+  Calcolare la norma di \(A^{-1}\)
+\item
+  moltiplicare le due norme per ottenere l'indice di condizionamento
+  \(k(A)\)
+\end{enumerate}
+
+\subsubsection{Polinomio interpolante di
+newton}\label{polinomio-interpolante-di-newton}
+
+data in input una funzione \(f(x)\) delle variabili \(x_{i}\) costruiamo
+il polinomio di grado \(i-1\) 1. calcolare i punti \(x_{i}\) nella
+funzione per ottenere la \(y\) 2. calcolare \(f[x_{i},x_{i+1}]\) ossia
+facciamo \(\frac{y_{(i+1)} - y_{i}}{x_{(i+1)}-x_{i}}\)\\
+3. ripetiamo il punto 2 fino ad ottenere un solo elemento. 4. costruiamo
+il polinomio sommando la diagonale superiore dello schema creato.
+\(P_{n}(x)=f[x_0]+(x-x_0)f[x_0,x_1]+(x-x_0)(x-x_1)f[x_0,x_1,x_2]+\cdots+(x-x_0)(x-x_1)....\)
+5. ottenere l'errore seguendo questa formula
+\(f(x) - P_{n}(x)= \left|\frac{\omega_{n+1}\left(x\right)\cdot f^{n+1}\left(\xi\right)}{\left(n+1\right)!}\right|\)
+dove \(w_{n+1}\) = \(\prod_{i=0}^{n}(x-x_{i})\)\\
+\(n\) è il grado del polinomio \(\xi\) è l'intervallo su cui calcolare
+la derivata.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  calcoliamo \(\xi\) su i due estremi del nostro insieme di punti e
+  prendiamo quello che, una volta sostituito a \(\xi\) massimizza la
+  funzione
+\end{enumerate}
+
+\begin{itemize}
+\item
+  se ci venisse chiesto di calcolare il polinomio di un grado maggiore
+  di quello che avremmo con i punti a disposizione, dovremmo usare le
+  informazioni sulla derivata per ``ingrassare'' il nostro polinomio. Se
+  ad esempio ci chiedesse un polinomio di grado 3 però abbiamo a
+  disposizione solo 3 punti, ne scartiamo uno e gli altri 2 li prendiamo
+  calcoliamo i primi due alla derivata di \(f\).
+
+  quindi \(y_{1} = f(x_{1})\) \(y_{2} = f(x_{2})\) \(y_{3} = f'(x_{1})\)
+  e \(y_{4} = f'(x_{2})\) e ripetiamo tutte le operazioni precedenti.
+\end{itemize}
+
+\subsubsection{Polinomio interpolante di
+Lagrange}\label{polinomio-interpolante-di-lagrange}
+
+data in input una funzione e una serie di punti. da non usare se abbiamo
+solo le informazioni della funzione e delle derivate 1. Calcoliamoci le
+\(y\) 2. scriviamo la formula generale del metodo
+\(P_{n}(x)=\sum_{k=0}^n y_k\cdot L_k(x)\) 3. Procediamo a calcolare gli
+\(L_{k}(x)\) che sono dati da
+\(L_k(x)=\prod_{i=0~i\neq k}^{n}\frac{(x-x_i)}{(x_k-x_i)}\) 4. scrivere
+il polinomio 5. calcolare l'errore (seguendo il metodo citato già nella
+costruzione del polinomio interpolante di newton)
+
+\paragraph{Gauss Sidel (Matriciale)}\label{gauss-sidel-matriciale}
+
+E' condizione \(\mathbf{sufficente}\) affinché il metodo converga, che
+la matrice \(A\) sia a diagonale dominante.
+
+data una matrice \(A\) o un sistema di equazioni eseguiamo i seguenti
+passi 1. ci troviamo la matrice di iterazione \(T = -M^{-1} N\) dove
+\(M\) è la matrice triangolare inferiore di \(A\)(compresa la
+diagonale), e \(N\) è il resto. 2. vediamo se \(A\) converge (diagonale
+dominante oppure raggio spettrale) 3. calcoliamo con il metodo di
+eliminazione di gauss \(M^{-1}\) e la neghiamo 4. prendiamo la formula
+delle iterate \(x^{(i+1)} = Tx^{i}+c\) dove \(c = M^{-1} b\)
+
+\paragraph{Jacobi (Matriciale)}\label{jacobi-matriciale}
+
+data una matrice \(A\) o un sistema di equazioni 1. scriviamo la matrice
+di iterazione \(T = -D^{-1}C\)\\
+dove \(D\) è la diagonale di \(A\) e \(C\) è il complemento. per fare
+l'inversa, su \(D\) possiamo fare direttamente l'inversa degli elementi
+di ogni numero sulla diagonale 2. controlliamo se la matrice \(A\)
+converge. se è a diagonale dominante allora sappiamo che sicuramente
+converge, se non lo fosse dobbiamo eseguire i seguenti passaggi 3. il
+raggio spettrale è il massimo in valore assoluto degli autovalori 4.
+eseguiamo \(T-I\lambda\) 5. ci calcoliamo il determinante 6. risolviamo
+l'equazione e ci troviamo i valori 7. se \(\rho < 1\) allora converge 8.
+se \(\rho \geq 1\) allora diverge 9. ci calcoliamo le varie iterate
+usando \(x^{(i+1)} = Tx^{(i)}+c\) dove \(c = D^{-1}b\)
+
+\paragraph{Gauss Seidel e Jacobi
+(scalare)}\label{gauss-seidel-e-jacobi-scalare}
+
+dato il sistema lineare \(Ax=b\) in input 1. la convertiamo in un
+sistema di equazioni 2. ci isoliamo una variabile su ogni riga (ad
+esempio ci isoliamo la \(x\) nella prima equazione la \(y\) nella
+seconda e la \(z\) nella terza) 3. calcoliamo la convergenza di \(A\)
+senno non possiamo fare nulla se non converge 4. per gauss usiamo le
+versioni aggiornate, mentre per jacobi usiamo solo le informazioni del
+vettore precedente. l'operazione consiste nel calcolare il vettore
+\(x^{(i+1)}\) risolvendo i vari sistemi con le informazioni che abbiamo.
+otterremo infine una \(x\) una \(y\) e una \(z\) che saranno
+rispettivamente le componenti del vettore \(x^{(i+1)}\) {[}{[}Pasted
+image 20230624120238.png{]}{]}
+
+\subsubsection{fattorizzazione LU}\label{fattorizzazione-lu}
+
+questo metodo sfrutta la decomposizione di \(A\) nel prodotto di due
+matrici, \(L\) e \(U\) Effettuare questa operazione non è complicato,
+difatti possiamo ricorrere alla cara vecchia eliminazione di gauss,
+tuttavia ci sono alcune precisazioni da tenere a mente, visto che la
+tecnica differisce leggermente Procediamo con un esempio
+
+sia data la matrice
+\[A=\left(\begin{matrix}2&4&3&5\\ -4&-7&-5&-8\\ 6&8&2&9\\ 4&3&-2&14\end{matrix}\right)\]
+
+la affianchiamo come di nostro solito alla matrice identità
+\(I \in \mathbb{R}^{4 \times 4}\) ottenendo
+
+\[
+\left(\begin{matrix}1&0&0&0\\ 0&1&0&0\\ 0&0&1&0\\ 0&0&0&1\end{matrix}\right)
+\left(\begin{matrix}2&4&3&5\\ -4&-7&-5&-8\\ 6&8&2&9\\ 4&3&-2&14\end{matrix}\right)\]
+
+fatto questo iniziamo ad effettuare la tecnica di eliminazione di gauss
+per ottenere la triangolare superiore di \(A\) la differenza è che in
+questo scenario \textbf{useremo la matrice \(I\) per ricordarci le
+operazioni fatte}
+
+applichiamo quindi l'algoritmo \(R_{2} = R_{2}-(-2)R_{1}\)
+\(R_{3} = R_{3} -(3)R_{1}\) \(R_{4} = R_{4} -(2)R_{1}\)
+
+dopo queste prime operazioni ci siamo liberati la prima colonna della
+matrice \(A\) conservandoci su quella identità gli elementi utilizzati,
+ossia \([-2,3,2]\) Notiamo quindi due cose: 1. Sulla matrice identità
+CONSERVIAMO l'elemento utilizzato per ottenere lo zero 2. Le operazioni
+tra righe sono sempre di sottrazione, quindi non dobbiamo commettere
+l'errore di fare una cosa del genere \(R_{2} = R_{2} - (-2)R_{1}\)
+quindi \(R_{2} = R_{1}+2R_{2}\) e ci conserviamo il \(+2\)
+
+\[
+\left(\begin{matrix}1&0&0&0\\ -2&1&0&0\\ 3&0&1&0\\ 2&0&0&1\end{matrix}\right)
+\left(\begin{matrix}2&4&3&5\\ 0&1&1&2\\ 0&-4&-7&-6\\ 0&1&-8&4\end{matrix}\right) \]
+
+ora dobbiamo fare lo stesso per la seconda colonna, a partire
+dall'elemento delle diagonale, ossia \(-7\) e si procede come fatto
+prima. si ripete tutto questo processo fino al raggiungimento di una
+matrice triangolare inferiore a sinistra e una superiore a destra. per
+brevità ometteremo i procedimenti. Il risultato sarà il seguente
+\[L =\left(\begin{matrix}1&0&0&0\\ -2&1&0&0\\ 3&-4&1&0\\ 2&1&3&1\end{matrix}\right)
+U =\left(\begin{matrix}2&4&3&5\\ 0&1&1&2\\ 0&0&-3&2\\ 0&0&0&-4\end{matrix}\right) 
+\]
+
+il determinante di \(A\) sarà dato dal prodotto
+\(\det{(U) \  \det{(L)}}\) visto che sono matrici triangolari:
+
+\begin{quote}
+il \(\det(L)\) è il prodotto della diagonale, ossia sempre \(1\) il
+\(\det(U)\) è il prodotto della diagonale.
+\end{quote}
+
+Se invece volessimo risolvere il sistema lineare \(Ax=b\) dovremmo
+eseguire i seguenti passaggi
+
+\(Ly = b\) \(Ux=y\)
+
+visto che \(L\) è triangolare inferiore possiamo risolvere il sistema
+usando la tecnica del \emph{foreward} substitution (praticamente uguale
+alla backward substitution solo che partiamo dall'alto) per \(U\) invece
+possiamo risolvere il sistema usando la backward substitution, visto che
+abbiamo trovato le \(y\)
+
+\subsubsection{Gauss seidel - Jacobi
+errore}\label{gauss-seidel---jacobi-errore}
+
+Calcola la differenza tra i vettori delle soluzioni ottenute in due
+iterazioni consecutive. Se hai ottenuto il vettore soluzione
+\(\mathbf{x}^{(k)}\) dopo l'iterazione \(k\) e il vettore soluzione
+\(\mathbf{x}^{(k-1)}\) dopo l'iterazione \(k-1\), calcola la differenza
+\(\Delta\mathbf{x} = \mathbf{x}^{(k)} - \mathbf{x}^{(k-1)}\).
+
+Calcola la norma euclidea della differenza \(\Delta\mathbf{x}\)
+utilizzando la seguente formula:
+
+\(|\Delta\mathbf{x}| = \sqrt{ \sum_{i=1}^{n}(\Delta x_i)^2}\)
+
+Dove \(n\) è il numero di componenti nel vettore \(\Delta\mathbf{x}\) e
+\(\Delta x_i\) rappresenta l'\(i\)-esima componente del vettore
+\(\Delta\mathbf{x}\). Questa formula calcola la radice quadrata della
+somma dei quadrati delle differenze tra le componenti dei vettori.
+
+Per calcolare l'errore relativo tra due iterazioni successive nel metodo
+di Gauss-Seidel, possiamo utilizzare la seguente formula: \[
+\text{Errore Relativo} = \frac{{\|x^{(k+1)} - x^{(k)}\|}}{{\|x^{(k+1)}\|}}
+\]
+
+Dove \((x^{(k+1)})\) rappresenta le soluzioni ottenute all'iterazione
+\((k+1)\) e \((x^{(k)}\)) rappresenta le soluzioni ottenute
+all'iterazione \(k\) \(\|\cdot\|\) rappresenta la norma euclidea del
+vettore.
+
+\paragraph{Jacobi Gauss seidel velocità di
+convergenza}\label{jacobi-gauss-seidel-velocituxe0-di-convergenza}
+
+Convergerà piu velocemente il metodo che ha raggio spettrale minore. sia
+\(T_{GS}\) la matrice di iterazione di gauss seidel e \(T_{J}\) la
+matrice di iterazione di jacobi allora
+
+se \(\rho(T_{GS})<\rho(T_{J})\) allora convergerà piu velocemente Gauss
+se invece \(\rho(T_{J})<\rho(T_{GS})\) convergerà piu velocemente Jacobi
+
+\subsubsection{Metodo di bisezione}\label{metodo-di-bisezione}
+
+Data in input una funzione \(f(x)\) e un intervallo \([a,b]\) si cerca
+di determinare (approssimando) una radice di funzione, ossia un valore
+di \(x\) tale per cui \(f(x) = 0\)
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  assicurarsi che la funzione calcolata in \(a\) e \(b\) rispetti
+  \(f(a) \ f(b) < 0\) ossia una delle \(y\) deve essere necessariamente
+  negativa e l'altra positiva. questo ci assicura che la funzione
+  intersecherà l'asse delle \(x\)
+\item
+  calcoliamo il punto medio tra \(a\) e \(b\) ossia
+  \(c = \frac{a+b}{2}\)
+\item
+  calcoliamo \(f(c)\). se il valore è pari a \(0\) allora abbiamo
+  trovato la radice e chiudiamo la procedura
+\item
+  se \(f(c) \neq 0\) allora dobbiamo determinare un nuovo intervallo,
+  sostituendo \(c\) a uno dei valore di \([a,b]\) la scelta su quale
+  valore sostituire dipende dai valore \(a\) e \(b\), in linea generale,
+  vogliamo ottenere un nuovo intervallo \([a,c]\) oppure \([c,b]\) tale
+  per cui sia rispettata la notazione indicata nel punto 1, ossia che,
+  il prodotto della funzione calcolata negli intervalli deve essere
+  negativo.
+\item
+  ripetere i procedimenti fino a raggiungere il valore desiderato.
+\end{enumerate}
+
+\paragraph{Curva di Bézier}\label{curva-di-buxe9zier}
+
+allora seguiremo l'esempio di un'equazione con tre punti, e quello che
+vogliamo qui è ricavare l'equazione che ci permetta di fare quanto segue
+
+{[}{[}Bézier\_2\_big.gif{]}{]}
+
+questo puo essere fatto solo se in possesso dei i punti \(P_{0}\)
+\(P_{1}\) e \(P_{2}\)
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  scrivere l'equazione \[B(t) = \sum_{i=0}^{n}P_{i}\ B_{n,i}(t)\] dove
+  \[
+  B_{n,i}(t) = \binom{n}{i} \ t^{i} \ (1-t)^{n-i} 
+  \]
+\end{enumerate}
+
+con \[
+\binom{n}{i} = \frac{n!}{i!\ (n-i)! }
+\]
+
+Quindi al variare di \(t\) avremo che l'equazione \(B(t)\) ci disegnerà
+un elegante curva di bézier
+
+\paragraph{Metodo delle tangenti}\label{metodo-delle-tangenti}
+
+Il metodo delle tangenti di Newton, anche conosciuto come metodo di
+Newton-Raphson, è un algoritmo iterativo per approssimare le radici di
+una funzione. L'idea principale è di utilizzare la tangente alla curva
+della funzione in un punto dato come approssimazione della radice. Il
+metodo delle tangenti di Newton è basato sul seguente processo
+iterativo:
+
+Dato un numero \(\gamma\), che siamo interessati ad approssimare, lo
+scriviamo come \(f(x) = \gamma\) e ci ricaviamo la \(f(x) = 0\)
+aggiustando i termini.
+
+Scegliamo un punto di partenza \(x_0\) tale per cui \(f(x_{0})\) è
+quanto piu vicino a \(\gamma\), calcoliamo il valore della funzione
+\(f(x_0)\) e la sua derivata \(f'(x_0)\) nel punto \(x_0\)
+
+Costruiamo l'equazione della tangente al punto \((x_0, f(x_0))\)
+utilizzando la formula della retta tangente
+\(y - f(x_0) = f'(x_0)(x - x_0)\). La retta tangente interseca l'asse
+delle x nel punto \((x_1, 0)\)che è la nostra nuova approssimazione
+della radice.
+
+Ripetiamo i passaggi 1 e 2 utilizzando \(x_1\) come nuovo punto di
+partenza, fino a quando non raggiungiamo una buona approssimazione della
+radice. L'algoritmo può essere descritto come:
+
+\[
+x_{n+1} = x_n - \frac{f(x_n)}{f'(x_n)}
+\]
+
+dove \(x_n\) è il valore corrente dell'approssimazione della radice e
+\(x_{n+1}\) è il nuovo valore calcolato nell'iterazione successiva.
+
+Questo processo iterativo viene ripetuto finché la differenza tra
+\(x_{n+1}\) e \(x_n\) è sufficientemente piccola o fino a quando non
+viene raggiunto un numero massimo di iterazioni predefinite.
+
+È importante notare che il metodo delle tangenti di Newton richiede una
+buona approssimazione iniziale della radice desiderata e funziona meglio
+quando la funzione è sufficientemente differenziabile vicino alla
+radice.
+
+\begin{quote}
+l'estremo di Fourier è \(\boxed{\ x_0=a\vee x_0=b \ }\) dove \(a\) e
+\(b\) sono gli intervalli dell'insieme considerato per la ricerca della
+radice \(\alpha\), tale per cui \(f(x_{0})f''(x_{0}) > 0\)
+\end{quote}
+
+\begin{itemize}
+\tightlist
+\item
+  Esempio vogliamo approssimare \(\sqrt{ 3 }\) quindi poniamo
+  \(\sqrt{ 3 } = x\) che diventa \(x^{2} = 3\) otteniamo cosi la nostra
+  \(f(x)\) ossia \(x^{2}-3 = 0\)
+\end{itemize}
+
+scegliamo \(x_{0} = 2\) calcoliamo la derivata prima \(f'(x) = 2x\)
+procediamo con il calcolo delle iterazioni
+
+\(x_{1} = 2-\frac{2^{2}-3}{4} = \frac{7}{4}\)
+
+\(x_{2} = \frac{7}{4} - \frac{\frac{49}{16}-3}{\frac{7}{2}} = 1.732 \approx{\sqrt{ 3 }}\)
+
+\paragraph{Condizioni di convergenza}\label{condizioni-di-convergenza}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Continuità: La funzione deve essere continua nell'intervallo
+  considerato.
+\item
+  Differenziabilità: La funzione deve essere differenziabile
+  nell'intervallo considerato, il che implica che la derivata esista e
+  sia continua.
+\item
+  Scelta iniziale: È necessario selezionare un'approssimazione iniziale
+  \(x_{0}\) che sia sufficientemente vicina alla soluzione desiderata.
+\item
+  Derivata non nulla: La derivata della funzione nel punto \(x_{0}\) non
+  deve essere zero. In altre parole, \(f'(x_{0}) \neq 0\)
+\item
+  Convergenza locale: La funzione deve soddisfare la condizione di
+  convergenza locale, che richiede che la derivata sia continua e non
+  nulla in un intervallo contenente la soluzione.
+\item
+  Intervallo di convergenza: Il metodo delle tangenti converge verso la
+  soluzione desiderata solo se la scelta iniziale \(x_{0}\)\hspace{0pt}
+  è sufficientemente vicina alla soluzione e se la successione delle
+  approssimazioni successive converge.
+\end{enumerate}
+
+per riassumere \[
+\begin{aligned}
+&1.~f\in C^{2}([a,b]); \\
+&2.~f ^{\prime}(x)\neq0\ \text{per ogni }x\in[a,b]; \\
+&3.~f(a)f(b)<0,
+\end{aligned}
+\]
+
+\subsubsection{Metodo delle secanti}\label{metodo-delle-secanti}
+
+Il metodo delle secanti è un metodo numerico utilizzato per approssimare
+le radici di una funzione, ossia le \(x_{i}\) con
+\(i \in \mathbb{R}^{n}\) tale per cui \(f(x_{i}) = 0\) . È un metodo
+iterativo che si basa sull'interpolazione lineare tra due punti sulla
+curva della funzione per stimare la posizione della radice.
+
+Il processo iterativo del metodo delle secanti può essere descritto come
+segue:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Si selezionano due punti iniziali, chiamiamoli \(x_0\) e \(x_1\) che
+  si trovano su entrambi i lati della radice che vogliamo approssimare.
+\item
+  Si calcola il valore della funzione \(f(x)\) nei punti \(x_0\) e
+  \(x_1\)
+\item
+  Si calcola l'equazione della retta che passa per i punti
+  \((x_0, f(x_0))\) e \((x_1, f(x_1))\). L'equazione della retta può
+  essere ottenuta utilizzando la formula dell'equazione della retta che
+  passa per due punti:
+\end{enumerate}
+
+\[y - f(x_0) = \frac{{f(x_1) - f(x_0)}}{{x_1 - x_0}} \cdot (x - x_0)\]
+
+ossia
+
+\[x_{n+1}=x_n-\frac{f(x_n)(x_n-x_{n-1})}{f(x_n)-f(x_{n-1})}
+\]
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{3}
+\item
+  Si trova il punto in cui la retta interseca l'asse \(x\) risolvendo
+  l'equazione ottenuta al passo precedente per \(x\) . Chiamiamo questo
+  punto \(x_2\)
+\item
+  Si calcola il valore della funzione \(f(x_2)\).
+\item
+  Si ripetono i passi 3, 4 e 5 fino a quando la stima della radice
+  raggiunge una precisione desiderata o fino a quando si raggiunge un
+  numero massimo di iterazioni.
+\end{enumerate}
+
+\begin{quote}
+Il metodo delle secanti differisce dal metodo delle tangenti (o metodo
+di Newton) per il fatto che non richiede il calcolo della derivata della
+funzione. Invece, utilizza l'interpolazione lineare tra due punti per
+approssimare la radice.
+\end{quote}
+
+È importante notare che il metodo delle secanti potrebbe non convergere
+o potrebbe convergere lentamente se la funzione ha una pendenza molto
+ripida o presenta punti di flesso o discontinuità nella vicinanza della
+radice. In tali casi, potrebbero essere necessari ulteriori accorgimenti
+o l'uso di altri metodi numerici per ottenere una buona approssimazione
+della radice.
+
+\subsubsection{Minimi quadrati}\label{minimi-quadrati}
+
+Per approssimare la funzione \(f(x) = \frac{x}{x+1}\) tramite minimi
+quadrati, dobbiamo trovare la retta che minimizza la somma dei quadrati
+delle differenze tra i valori della funzione e i corrispondenti punti
+sui nodi di ascissa.
+
+Iniziamo calcolando i valori della funzione \(f(x)\) per i nodi di
+ascissa dati:
+
+\[
+\begin{align*}
+f(0) &= \frac{0}{0+1} = 0 \\
+f(1) &= \frac{1}{1+1} = \frac{1}{2} \\
+f(2) &= \frac{2}{2+1} = \frac{2}{3} \\
+f(3) &= \frac{3}{3+1} = \frac{3}{4} \\
+f(4) &= \frac{4}{4+1} = \frac{4}{5} \\
+\end{align*}
+\]
+
+Ora, dobbiamo trovare la retta di approssimazione nel formato
+\[y = mx + c\] Useremo il metodo dei minimi quadrati per determinare i
+valori di \(m\) (coefficiente angolare) e \(c\) (intercetta).
+
+La formula per il coefficiente angolare \(m\) è data da:
+
+\[
+m = \frac{n(\sum xy) - (\sum x)(\sum y)}{n(\sum x^2) - (\sum x)^2}
+\] Dove \(n\) è il numero di punti (nodi di ascissa), \(\sum\) indica la
+somma e \(xy\) rappresenta il prodotto dei valori \(x\) e \(y\).
+
+La formula per l'intercetta c è data da: \[
+c = \frac{\sum y - m(\sum x)}{n}
+\]
+
+Sostituendo i valori ottenuti dai nodi di ascissa nella formula,
+otteniamo: \[
+\begin{align*}
+\sum x &= 0 + 1 + 2 + 3 + 4 = 10 \\
+\sum y &= 0 + \frac{1}{2} + \frac{2}{3} + \frac{3}{4} + \frac{4}{5} = \frac{77}{30} \\
+\sum xy &= (0 \cdot 0) + (1 \cdot \frac{1}{2}) + (2 \cdot \frac{2}{3}) + (3 \cdot \frac{3}{4}) + (4 \cdot \frac{4}{5}) = \frac{77}{20} \\
+\sum x^2 &= 0^2 + 1^2 + 2^2 + 3^2 + 4^2 = 30 \\
+\end{align*}
+\] Sostituendo questi valori nella formula per m, otteniamo:
+
+\[
+m = \frac{5 \cdot \frac{77}{20} - 10 \cdot \frac{77}{30}}{5 \cdot 30 - 10^2} = \frac{\frac{77}{4} - \frac{77}{3}}{150 - 100} = \frac{77}{12} \cdot \frac{1}{50} = \frac{77}{600}
+\] Sostituendo i valori nella formula per c, otteniamo:
+
+\$\$ c = \frac{\frac{77}{30} - \frac{77}{600} \cdot 10}{5} =
+\frac{\frac{77}{30}
+
+ - \frac{77}{60}}{5} = \frac{\frac{154}{60} - \frac{77}{60}}{5} =
+\frac{77}{60} \cdot \frac{1}{5} = \frac{77}{300} \$\$
+
+Quindi, la retta di approssimazione nel senso dei minimi quadrati per la
+funzione \(f(x) = \frac{x}{x+1}\) sui nodi di ascissa \(0\), \(1\),
+\(2\), \(3\), \(4\) è:
+
+\[
+y = \frac{77}{600}x + \frac{77}{300}
+\] Nota: Si potrebbe semplificare ulteriormente i coefficienti \(m\) e
+\(c\), ma ho mantenuto la forma frazionaria per precisione.
+
+\subsubsection{Metodo del punto fisso}\label{metodo-del-punto-fisso}
+
+data una funzione \(f(x)\) dobbiamo trovare la (o le)
+\(\hat{x}: f(\hat{x}) = \hat{x}\) per fare questo dobbiamo prendere una
+\(g(x)\) da usare poi nelle iterazioni verso il punto fisso
+
+la \(g(x)\) la possiamo scegliere usando la forma di
+newton/secanti/metodo delle corde prendiamo ad esempio la \(g(x)\)
+usando il metodo delle corde \(g(x)=x-\frac{f(x)}{m}\) e prendiamo
+arbitrariamente \(m = 1\)
+
+dato quindi un punto\(x_{0}\) possiamo fare le iterate
+\[x_{n+1} = g(x_{n})\] Possiamo trovare i punti fissi anche risolvendo
+\(g(x)=x\) quindi \(g(x) -x = 0\) troveremo una serie di punti fissi
+\(\alpha_{i}\) con \(i \in \mathbb{R}^{n}\)
+
+Per trovare l'insieme di convergenza \(I\) di un certo punto fisso
+\(\alpha_{i}\) dobbiamo verificare la convergenza e porre quanto segue
+\(\mid g'(x) \mid \space <1\)\\
+quindi deve valere che
+
+\[
+\begin{aligned}
+\left\{\begin{matrix}g'(x)<1 \\ \ \ \ g'(x)>-1
+\end{matrix}\right.  
+\end{aligned}
+\]
+
+risolviamo e otteniamo gli estremi dell'insieme \([a,b]\)
+
+\end{document}
