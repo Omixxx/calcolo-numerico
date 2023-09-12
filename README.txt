@@ -1,3 +1,4 @@
+![](https://github.com/calcolo-numerico/appunti.gif)
 Ciao! benvenuto/a agli appunti del TüT!
  
 Allora, al fine di ottimizzare il tuo eventuale consumo di questo materiale ti 
