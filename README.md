@@ -67,8 +67,8 @@ non sono un matematico, anzi, sono abbastanza scarso in questa materia (lo si ca
 solo per passare l'esame) <br>
 Quindi quando troverete qualche errore potete aprire direttamente una issue. 
 
-##### Curiosità 
-ho smesso di scrivere main.pdf e iniziato a scrivere su obsidian per pura semplicità
+#### Curiosità 
+Ho smesso di scrivere main.pdf e iniziato a scrivere su obsidian per pura semplicità
 visto che su obsidian potevo scrivere agilmente snippets che funzionassero, 
 mentre su overleaf questo non potevo farlo. Oltretutto c'è il vantaggio dei plugin, insomma 
 molto meglio, e poi l'approccio estremamente formale che avevo preso con main.pdf stava 
