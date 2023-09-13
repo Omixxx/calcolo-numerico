@@ -60,7 +60,11 @@ dovete:
 - scrivermi, cosi vi aggiunto alla repo
 - fare una fork, modificare gli appunti, fare una pull request 
 
-
+### Segnalazione errori
+Noterete sicuramente errori di qui e di la, questo è dato dal fatto che sono un essere umano, ancora per lo meno, e soprattutto 
+non sono un matematico, anzi, sono abbastanza scarso in questa materia (lo si capisce dal fatto che ho messo su tutto questo casino 
+solo per passare l'esame)
+Quindi quando troverete qualche errore potete aprire una issue qui su github. 
 
 ##### Curiosità 
 ho smesso di scrivere main.pdf e iniziato a scrivere su obsidian per pura semplicità
