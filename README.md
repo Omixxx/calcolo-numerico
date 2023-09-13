@@ -45,7 +45,7 @@ permetterano di scrivere matematica abbastanza agilmente, infatti basta consulta
 la sezione del plugin in questione dalle sue impostazioni per trovare tutte le shortcuts del caso
 ("ad esempio, premere "mk" farà si che "mk" venga sostituito con "$$" che è l'ambiente dove scrivere formule, oppure 
 premere / dopo un equazione trasformerà l'equazione in una frazione) 
-comunque, il punto è che se imparate come scrivere latex e smaenttate un po dovreste già avere tutto avviato. 
+comunque, il punto è che se imparate come scrivere latex e smanettate un po dovreste già avere tutto avviato. 
 
 Per qanto riguarda l'aggiunta effettiva di materiale ricordate di rimanere concisi, precisi, e soprattuto chiari. 
 Ad ogni nota potete triggherare tramite la shortcut ctrl+p la "linea di comando" obsidian, dove se scrivete "Template" vi
@@ -54,18 +54,19 @@ sono "matematica" e "matematicaDimostrazione", il primo è per aggiungere note d
 beh avete capito. 
 Aggiungete materiale atomico, ossia, una nota per concetto.
 Potete linkare argomenti tramite le doppie parentesi quadre [[esempio]]
-Una volta crete delle vostre note ricordate di fare una pull request a me, quindi per renderla semplice quando pullate 
-gli appunti createvi un branch separato, e se fate modifiche poi pushatele qui, cosi che io possa approvarle e nel 
-caso fare il merge nel branch ufficiale, ossia main.
+
+Ovviamente gli appunti sono hostati qui, sulla mia repo, quindi se volete "rendere pubbliche" le vostre aggiunte 
+dovete: 
+- scrivermi, cosi vi aggiunto alla repo
+- fare una fork, modificare gli appunti, fare una pull request 
 
 
 
 ##### Curiosità 
 ho smesso di scrivere main.pdf e iniziato a scrivere su obsidian per pura semplicità
-visto che su obsidian potevo scrivere agilmetne snippets che funzionassero, 
+visto che su obsidian potevo scrivere agilmente snippets che funzionassero, 
 mentre su overleaf questo non potevo farlo. Oltretutto c'è il vantaggio dei plugin, insomma 
-molto meglio. e poi l'approccio estremamente formale che avevo preso con main.pdf stava 
-diventando pesante da mantenere, soprattutto per il tempo.
-
+molto meglio, e poi l'approccio estremamente formale che avevo preso con main.pdf stava 
+diventando pesante da mantenere.
 
 
