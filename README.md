@@ -6,7 +6,7 @@ spiego un attimo come utilizzarlo al meglio.
 
 
 ## Intro
-1. consiglio di aprire la cartella "Vault" dal software Obsidian
+1. consiglio di aprire la cartella "Vault" (e sottolineo, la cartella `Vault`, non la cartella root) dal software Obsidian
 perche è proprio usando obsidian che ho scritto questi appunti 
 quindi, nonostante sia semplice markdown, consiglio di usare l'app in questione
 perchè sicuramente avrete una visione migliore dato che "vault" contiene le 
