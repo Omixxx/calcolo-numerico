@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "Autovalore",
+      "path": "Calcolo Numerico/Autovalore.md"
+    },
+    {
+      "basename": "Spline cubiche",
+      "path": "Calcolo Numerico/Spline cubiche.md"
+    },
+    {
+      "basename": "Interpolazione a tratti",
+      "path": "Calcolo Numerico/Interpolazione a tratti.md"
+    },
+    {
+      "basename": "Indice di condizionamento per un problema di algebra lineare con perturbazioni sul vettore dei termini noti e sulla matrici dei coefficienti",
+      "path": "Calcolo Numerico/Indice di condizionamento per un problema di algebra lineare con perturbazioni sul vettore dei termini noti e sulla matrici dei coefficienti.md"
+    },
+    {
+      "basename": "Indice di condizionamento per un problema di algebra lineare con perturbazioni sul vettore dei termini noti",
+      "path": "Calcolo Numerico/Indice di condizionamento per un problema di algebra lineare con perturbazioni sul vettore dei termini noti.md"
+    },
+    {
       "basename": "Home",
       "path": "Home.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "Tasso asintotico medio di convergenza",
       "path": "Università/Calcolo Numerico/Tasso asintotico medio di convergenza.md"
-    },
-    {
-      "basename": "Back Substitution",
-      "path": "Università/Calcolo Numerico/Back Substitution.md"
-    },
-    {
-      "basename": "Condizionamento del problema di ricerca degli zeri di una funzione",
-      "path": "Università/Calcolo Numerico/Condizionamento del problema di ricerca degli zeri di una funzione.md"
-    },
-    {
-      "basename": "Errore del polinomio interpolante di Newton",
-      "path": "Università/Calcolo Numerico/Errore del polinomio interpolante di Newton.md"
-    },
-    {
-      "basename": "Polinomio di Newton",
-      "path": "Università/Calcolo Numerico/Polinomio di Newton.md"
-    },
-    {
-      "basename": "Controesempio di Rounge",
-      "path": "Università/Calcolo Numerico/Controesempio di Rounge.md"
     }
   ],
   "omittedPaths": [

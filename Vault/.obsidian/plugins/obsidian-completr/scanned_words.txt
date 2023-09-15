@@ -988,6 +988,7 @@ dfy
 dHA
 dfQTt
 derivabili
+deformato
 terminale
 testuali
 tra
@@ -1365,6 +1366,7 @@ uaP
 uAu
 uUMo
 uTMo
+uniche
 programma
 permettendo
 per
@@ -1693,6 +1695,9 @@ priori
 pGL
 pTk
 peggiore
+piacciono
+piega
+progettazione
 che
 comandi
 con
@@ -2099,6 +2104,9 @@ cTx
 cGv
 ccz
 contraddire
+consecutivi
+comportamento
+computerizzata
 il
 interno
 interfaccia
@@ -2594,6 +2602,8 @@ fvbi
 fEFYJY
 fbY
 fallire
+flessibilit
+fluidi
 all
 al
 ad
@@ -2932,6 +2942,10 @@ atD
 aS
 agilmente
 averlo
+accumulata
+attraversa
+animazione
+assistita
 grafica
 grado
 generale
@@ -3561,6 +3575,9 @@ seu
 sBp
 seF
 spaziati
+specificati
+simile
+superfici
 La
 Lista
 Lagrange
@@ -4158,6 +4175,8 @@ rIV
 rCpt
 rendiamo
 risolvibile
+rigida
+rendendo
 li
 le
 la
@@ -4309,6 +4328,8 @@ largamente
 lÄ
 lJ
 lgM
+liscia
+lisce
 Esistono
 Edge
 Ec
@@ -5518,6 +5539,8 @@ mTM
 mVMo
 minorazione
 mettendo
+molte
+movimenti
 Differenza
 DB
 Docs
@@ -6396,6 +6419,7 @@ Normalmente
 NWqdK
 Nud
 Nha
+Nell
 working
 web
 welcome
@@ -6941,6 +6965,7 @@ bHo
 buwgg
 bWq
 bkY
+bassa
 FFF
 Fai
 FFB

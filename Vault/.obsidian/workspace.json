@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ecf843a782a7e384",
+        "id": "60e073ce9d454858",
         "type": "tabs",
         "children": [
           {
-            "id": "524b2129860815d7",
+            "id": "7bad1d28fae98325",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -18,51 +18,33 @@
                   "eState": "{}"
                 },
                 {
-                  "title": "Errore di propagazione",
+                  "title": "Spline cubiche",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Università/Calcolo Numerico/Errore di propagazione.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":63,\"ch\":51},\"to\":{\"line\":63,\"ch\":51}},\"scroll\":0}"
-                },
-                {
-                  "title": "Scelta dei nodi di lagrange",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Università/Calcolo Numerico/Scelta dei nodi di lagrange.md\",\"mode\":\"source\",\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Calcolo Numerico/Spline cubiche.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
-                  "title": "Pivoting",
+                  "title": "Interpolazione a tratti",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Università/Calcolo Numerico/Pivoting.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":13},\"to\":{\"line\":0,\"ch\":13}},\"scroll\":0}"
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Calcolo Numerico/Interpolazione a tratti.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
+                },
+                {
+                  "title": "Indice di condizionamento per un problema di algebra lineare con perturbazioni sul vettore dei termini noti e sulla matrici dei coefficienti",
+                  "icon": "lucide-file",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Calcolo Numerico/Indice di condizionamento per un problema di algebra lineare con perturbazioni sul vettore dei termini noti e sulla matrici dei coefficienti.md\",\"mode\":\"source\",\"source\":false}}",
+                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
                   "title": "Indice di condizionamento per un problema di algebra lineare con perturbazioni sul vettore dei termini noti",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Università/Calcolo Numerico/Indice di condizionamento per un problema di algebra lineare con perturbazioni sul vettore dei termini noti.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}},\"scroll\":4.433691638294251}"
-                },
-                {
-                  "title": "Indice di condizionamento per un problema di algebra lineare",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Università/Calcolo Numerico/Indice di condizionamento per un problema di algebra lineare.md\",\"mode\":\"source\",\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Calcolo Numerico/Indice di condizionamento per un problema di algebra lineare con perturbazioni sul vettore dei termini noti.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 },
                 {
-                  "title": "indice di condizionamento assoluto",
+                  "title": "Home",
                   "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Università/Calcolo Numerico/indice di condizionamento assoluto.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Forward substitution",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Università/Calcolo Numerico/Forward substitution.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Fitting dei dati",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Università/Calcolo Numerico/Fitting dei dati.md\",\"mode\":\"source\",\"source\":false}}",
+                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Home.md\",\"mode\":\"source\",\"source\":false}}",
                   "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 }
               ]
@@ -70,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Calcolo Numerico/Autovalore.md",
                 "mode": "source",
                 "source": false
               }
@@ -196,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Calcolo Numerico/Autovalore.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -222,7 +204,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Calcolo Numerico/Autovalore.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -263,7 +245,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Calcolo Numerico/Autovalore.md"
               }
             }
           },
@@ -340,12 +322,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "notion-like-tables:Create new loom": false,
       "omnisearch:Omnisearch": false,
-      "homepage:Open homepage": false,
-      "remotely-save:Remotely Save": false
+      "homepage:Open homepage": false
     }
   },
-  "active": "524b2129860815d7",
+  "active": "9b1255f1c625697f",
   "lastOpenFiles": [
+    "Calcolo Numerico/Spline cubiche.md",
+    "Calcolo Numerico/Interpolazione a tratti.md",
+    "Calcolo Numerico/Indice di condizionamento per un problema di algebra lineare con perturbazioni sul vettore dei termini noti e sulla matrici dei coefficienti.md",
+    "Calcolo Numerico/Indice di condizionamento per un problema di algebra lineare con perturbazioni sul vettore dei termini noti.md",
+    "Home.md",
     "Università/Calcolo Numerico/Errore di propagazione.md",
     "Università/Calcolo Numerico/Scelta dei nodi di lagrange.md",
     "Università/Calcolo Numerico/Pivoting.md",
@@ -368,13 +354,8 @@
     "Università/Calcolo Numerico/Matrice a diagonale dominante.md",
     "Università/Calcolo Numerico/Matrice tridiagonale.md",
     "Università/Calcolo Numerico/Metodo di Gauss Naive.md",
-    "Università/Calcolo Numerico/Metodo di Gauss Seidel.md",
-    "Università/Calcolo Numerico/Polinomio di Lagrange.md",
-    "Università/Calcolo Numerico/Polinomio di Chebyschev.md",
     "Università/Calcolo Numerico/Calcolo Numerico.canvas",
-    "Università/Calcolo Numerico/Spline cubiche.md",
     "desktop.ini",
-    "Università/Calcolo Numerico/Pivoting totale.md",
     "Università/Calcolo Numerico/Allegati/diagram-20230912.svg",
     "Università/Calcolo Numerico/Allegati/diagram-20230909 (2).svg",
     "Università/Calcolo Numerico/Allegati/bezier-moi.gif",
