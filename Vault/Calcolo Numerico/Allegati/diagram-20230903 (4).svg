@@ -1,0 +1,11 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" width="661.1753540039062" height="122.69053649902344" style="
+        width:661.1753540039062px;
+        height:122.69053649902344px;
+        background: transparent;
+        fill: none;
+">
+        
+        
+        <svg xmlns="http://www.w3.org/2000/svg" class="role-diagram-draw-area"><g class="shapes-region" style="stroke: black; fill: none;"><g class="arrow-line"><path class="connection real" stroke-dasharray="6 6" d="  M286.31,32.57 L310.36,77.78" style="stroke: rgb(139, 87, 42); stroke-width: 1; fill: none; fill-opacity: 1; stroke-opacity: 1;"/></g><g class="arrow-line"><path class="connection real" stroke-dasharray="6 6" d="  M393.42,6.35 L384.23,38.24" style="stroke: rgb(139, 87, 42); stroke-width: 1; fill: none; fill-opacity: 1; stroke-opacity: 1;"/></g><g class="arrow-line"><path class="connection real" stroke-dasharray="" d="  M310.36,77.78 C333.22,122.02 374.42,77.35 384.23,38.24" style="stroke: rgb(0, 0, 0); stroke-width: 1; fill: none; fill-opacity: 1;"/></g><g class="composite-shape"><path class="real" d=" M380.97,39.73 C380.12,37.87 380.88,35.69 382.68,34.87 C384.48,34.04 386.63,34.89 387.48,36.75 C388.33,38.61 387.57,40.78 385.77,41.61 C383.97,42.43 381.83,41.59 380.97,39.73 Z" style="stroke-width: 1; stroke: rgb(0, 0, 0); fill: rgb(126, 211, 33); fill-opacity: 1;"/></g><g class="composite-shape"><path class="real" d=" M307.1,79.27 C306.25,77.41 307.01,75.24 308.81,74.41 C310.61,73.59 312.76,74.43 313.61,76.29 C314.46,78.15 313.7,80.33 311.9,81.15 C310.1,81.98 307.96,81.14 307.1,79.27 Z" style="stroke-width: 1; stroke: rgb(0, 0, 0); fill: rgb(126, 211, 33); fill-opacity: 1;"/></g><g/></g><g/><g/><g/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="660" height="121.51515197753906" style="width:660px;height:121.51515197753906px;font-family:Asana-Math, Asana;background:transparent;"></svg>
+</svg>
