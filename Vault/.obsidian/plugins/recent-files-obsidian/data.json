@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Home",
+      "path": "Home.md"
+    },
+    {
       "basename": "Autovalore",
       "path": "Calcolo Numerico/Autovalore.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "Indice di condizionamento per un problema di algebra lineare con perturbazioni sul vettore dei termini noti",
       "path": "Calcolo Numerico/Indice di condizionamento per un problema di algebra lineare con perturbazioni sul vettore dei termini noti.md"
-    },
-    {
-      "basename": "Home",
-      "path": "Home.md"
     },
     {
       "basename": "Errore di propagazione",

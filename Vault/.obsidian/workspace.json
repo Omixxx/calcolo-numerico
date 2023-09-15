@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "60e073ce9d454858",
+        "id": "37de15ba24eeff7e",
         "type": "tabs",
         "children": [
           {
-            "id": "7bad1d28fae98325",
+            "id": "f33e302cfec55ff4",
             "type": "leaf",
             "pane-relief:history-v1": {
               "pos": 0,
@@ -16,43 +16,13 @@
                 {
                   "state": "{}",
                   "eState": "{}"
-                },
-                {
-                  "title": "Spline cubiche",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Calcolo Numerico/Spline cubiche.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Interpolazione a tratti",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Calcolo Numerico/Interpolazione a tratti.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Indice di condizionamento per un problema di algebra lineare con perturbazioni sul vettore dei termini noti e sulla matrici dei coefficienti",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Calcolo Numerico/Indice di condizionamento per un problema di algebra lineare con perturbazioni sul vettore dei termini noti e sulla matrici dei coefficienti.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Indice di condizionamento per un problema di algebra lineare con perturbazioni sul vettore dei termini noti",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Calcolo Numerico/Indice di condizionamento per un problema di algebra lineare con perturbazioni sul vettore dei termini noti.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
-                },
-                {
-                  "title": "Home",
-                  "icon": "lucide-file",
-                  "state": "{\"type\":\"markdown\",\"state\":{\"file\":\"Home.md\",\"mode\":\"source\",\"source\":false}}",
-                  "eState": "{\"cursor\":{\"from\":{\"line\":0,\"ch\":0},\"to\":{\"line\":0,\"ch\":0}}}"
                 }
               ]
             },
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calcolo Numerico/Autovalore.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               }
@@ -178,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Calcolo Numerico/Autovalore.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -204,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Calcolo Numerico/Autovalore.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -245,7 +215,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Calcolo Numerico/Autovalore.md"
+                "file": "Home.md"
               }
             }
           },
@@ -327,61 +297,61 @@
   },
   "active": "9b1255f1c625697f",
   "lastOpenFiles": [
-    "Calcolo Numerico/Spline cubiche.md",
-    "Calcolo Numerico/Interpolazione a tratti.md",
-    "Calcolo Numerico/Indice di condizionamento per un problema di algebra lineare con perturbazioni sul vettore dei termini noti e sulla matrici dei coefficienti.md",
-    "Calcolo Numerico/Indice di condizionamento per un problema di algebra lineare con perturbazioni sul vettore dei termini noti.md",
-    "Home.md",
-    "Università/Calcolo Numerico/Errore di propagazione.md",
-    "Università/Calcolo Numerico/Scelta dei nodi di lagrange.md",
-    "Università/Calcolo Numerico/Pivoting.md",
-    "Università/Calcolo Numerico/Indice di condizionamento per un problema di algebra lineare con perturbazioni sul vettore dei termini noti.md",
-    "Università/Calcolo Numerico/domande.md",
-    "Università/Calcolo Numerico/Indice di condizionamento per un problema di algebra lineare.md",
-    "Università/Calcolo Numerico/indice di condizionamento assoluto.md",
-    "Università/Calcolo Numerico/Forward substitution.md",
-    "Università/Calcolo Numerico/Fitting dei dati.md",
-    "Università/Calcolo Numerico/Fattorizzazione PLU.md",
-    "Università/Calcolo Numerico/Fattorizzazione LU.md",
-    "Università/Calcolo Numerico/Allegati/diagram-20230912 (1).svg",
-    "Università/Calcolo Numerico/Eserciziario.md",
-    "Università/Calcolo Numerico/Indice di condizionamento.md",
-    "Università/Calcolo Numerico/Indice di condizionamento relativo.md",
-    "Università/Calcolo Numerico/l'indice di condizionamento di un problema di algebra lineare è sempre maggiore di uno.md",
-    "Università/Calcolo Numerico/Lemma sul limite della matrice di iterazione.md",
-    "Università/Calcolo Numerico/Limiti dell'interpolazione polinomiale.md",
-    "Università/Calcolo Numerico/Maggiorazioni dell'errore in caso di verifica delle condizioni di convergenza sufficienti per un metodo iterativo.md",
-    "Università/Calcolo Numerico/Matrice a diagonale dominante.md",
-    "Università/Calcolo Numerico/Matrice tridiagonale.md",
-    "Università/Calcolo Numerico/Metodo di Gauss Naive.md",
-    "Università/Calcolo Numerico/Calcolo Numerico.canvas",
-    "desktop.ini",
-    "Università/Calcolo Numerico/Allegati/diagram-20230912.svg",
-    "Università/Calcolo Numerico/Allegati/diagram-20230909 (2).svg",
-    "Università/Calcolo Numerico/Allegati/bezier-moi.gif",
-    "Università/Calcolo Numerico/Allegati/Pasted image 20230909153506.png",
-    "Università/Calcolo Numerico/Formulario Scritto.pdf",
-    "Università/Calcolo Numerico/Allegati/diagram-20230909 (1).svg",
-    "Università/Calcolo Numerico/Allegati/diagram-20230909.svg",
-    "Allegati/diagram-20230904.svg",
-    "Allegati/diagram-20230903 (4).svg",
-    "Allegati/diagram-20230903 (3).svg",
-    "Università/Università.canvas",
-    "Allegati",
-    "Università/Calcolo Numerico/Autovalore.synctex(busy)",
-    "Università/Calcolo Numerico/pdflatex22597.fls",
-    "Università/Calcolo Numerico/Autovalore.log",
-    "Università/Calcolo Numerico/Autovalore.fdb_latexmk",
-    "Università/Calcolo Numerico/Autovalore.aux",
-    "Università/Calcolo Numerico/Autovalore.fls",
-    "Università/Calcolo Numerico/Autovalore.synctex.gz",
-    "Università/Aws/Aws.canvas",
-    "Università/Fisica/Fisca.canvas",
-    "Università/Fisica/Risoluzione dei problemi/Come risolvere problemi di fisica.canvas",
-    "Miglioramento/Miglioramento.canvas",
-    "Miglioramento/FlowState/Come raggiungere uno stato di flow.canvas",
-    "Home.canvas",
-    "Università/Ingegneria/Ingegneria.canvas",
-    "Università/Ingegneria/esonero workflow.canvas"
+    "templates/Matematica.md",
+    "templates/Matematica Dimostrazione.md",
+    "templates",
+    "Vault/Università/Fisica/Esercizi/Halley/Allegati/Pasted image 20230816114839.png",
+    "Vault/Università/Fisica/Esercizi/Halley/Capitolo I/Esercizio 4.md",
+    "Vault/Università/Fisica/Esercizi/Halley/Allegati/Pasted image 20230816115134.png",
+    "Vault/Università/Fisica/Esercizi/Halley/Capitolo I",
+    "Vault/Università/Fisica/Esercizi/Halley/Allegati",
+    "Vault/Università/Fisica/Risoluzione dei problemi/Sviluppo di una strategia.md",
+    "Vault/Università/Fisica/Risoluzione dei problemi/Comprensione del problema.md",
+    "Vault/Università/Fisica/Risoluzione dei problemi/Come risolvere problemi di fisica.canvas",
+    "Vault/Università/Fisica/Risoluzione dei problemi/Approccio al problem solving.md",
+    "Vault/Università/Fisica/Risoluzione dei problemi/Applicazione della strategia.md",
+    "Vault/Università/Fisica/Risoluzione dei problemi/Analisi critica.md",
+    "Vault/Università/Fisica/Risoluzione dei problemi/Analisi critica della strategia.md",
+    "Vault/Università/Fisica/Risoluzione dei problemi/Analisi critica della soluzione.md",
+    "Vault/Università/Fisica/Esercizi/M.Villa",
+    "Vault/Università/Fisica/Esercizi/Halley",
+    "Vault/Università/Fisica/allegati/Pasted image 20230814172417.png",
+    "Vault/Università/Fisica/allegati/Pasted image 20230814172141.png",
+    "Vault/Università/Fisica/allegati/Pasted image 20230814170100.png",
+    "Vault/Università/Fisica/Vista.md",
+    "Vault/Università/Fisica/Vettori.md",
+    "Vault/Università/Fisica/Vettori Liberi.md",
+    "Vault/Università/Fisica/Versori.md",
+    "Vault/Università/Fisica/Verso.md",
+    "Vault/Università/Fisica/Velocità Vettoriale.md",
+    "Vault/Università/Fisica/Velocità Scalare.md",
+    "Vault/Università/Fisica/Velocità istantanea.md",
+    "Vault/Università/Fisica/Seconda Equazione  fondamentale della cinematica.md",
+    "Vault/Università/Fisica/Risoluzione dei problemi",
+    "Vault/Università/Fisica/Prima Equazione fondamentale della cinematica.md",
+    "Vault/Università/Fisica/Modulo.md",
+    "Vault/Università/Fisica/Modulo Velocità e Verso.md",
+    "Vault/Università/Fisica/Latex eviroments.md",
+    "Vault/Università/Fisica/Formule.md",
+    "Vault/Università/Fisica/Fisca.canvas",
+    "Vault/Università/Fisica/Esercizi",
+    "Vault/Università/Fisica/Direzione.md",
+    "Vault/Università/Fisica/Differenza tra velocità vettoriale e scalare.md",
+    "Vault/Università/Fisica/attachments",
+    "Vault/Università/Fisica/allegati",
+    "Vault/Università/Fisica",
+    "Vault/Università/Calcolo Numerico/Allegati/Pasted image 20230824122259.png",
+    "Vault/Università/Calcolo Numerico/Allegati/Pasted image 20230824122157.png",
+    "Vault/Università/Calcolo Numerico/Allegati/Pasted image 20230824122010.png",
+    "Vault/Università/Calcolo Numerico/Allegati/Pasted image 20230824121847.png",
+    "Vault/Università/Calcolo Numerico/Allegati/diagram-20230915 (1).svg",
+    "Vault/Università/Calcolo Numerico/Calcolo Numerico.canvas",
+    "Vault/Università/Aws/Esercitazioni/Networking/Networking.canvas",
+    "Vault/Università/Aws/Esercitazioni/Senza nome.canvas",
+    "Vault/Università/Aws/Aws.canvas",
+    "Vault/Università/Università.canvas",
+    "Vault/Progetti Personali/Modello ml per il riconoscimento dello stato d'animo di una persona in base al linguaggio del corpo tono della voce, parole scelte, micro (e macro) espressioni facciali/Lamp.canvas",
+    "Vault/Miglioramento/FlowState/Come raggiungere uno stato di flow.canvas",
+    "Vault/Miglioramento/Miglioramento.canvas"
   ]
 }
