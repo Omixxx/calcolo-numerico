@@ -7,7 +7,7 @@ spiego un attimo come utilizzarlo al meglio.
 
 ## Intro 
 
-La cartella `vault` contiene gli appunti a partire dai sistemi lineare in poi, con qualche accenno alla prima parte <br>
+La cartella `Vault` contiene gli appunti a partire dai sistemi lineare in poi, con qualche accenno alla prima parte <br>
 Il file `main.pdf` è il pdf contenente tutta la prima parte prima dei sistemi lineari.<br>
 il file `main.tex` è il file che contiene il codice LaTex di `main.pdf` <br>
 
