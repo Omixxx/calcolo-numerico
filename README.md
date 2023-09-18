@@ -43,9 +43,9 @@ Consiglio caldamente di impararlo. <br>
 Se aprite la cartella con obsidian saranno gia settati alcuni plugin, come LatexSuite, che vi 
 permetterano di scrivere matematica abbastanza agilmente, infatti basta consultare 
 la sezione del plugin in questione dalle sue impostazioni per trovare tutte le shortcuts del caso
-("ad esempio, premere `mk` sostituirà quest'ultimo con `$$` che è l'ambiente dove scrivere formule, oppure 
+(ad esempio, premere `mk` sostituirà quest'ultimo con `$$` che è l'ambiente dove scrivere formule, oppure 
 premere `/` dopo un equazione trasformerà la stessa in una frazione)  <br>
-Iil punto è che se imparate come scrivere latex e smanettate un po dovreste già avere tutto avviato, con molti snippets da poter usare. <br>
+Il punto è che se imparate come scrivere latex e smanettate un po dovreste già avere tutto avviato, con molti snippets da poter usare. <br>
 
 Per qanto riguarda l'aggiunta effettiva di materiale ricordate di rimanere concisi, precisi, e soprattuto chiari. <br>
 Ogni nota che create deve seguire uno dei due templates presenti (`ctrl+p` -> template -> ne scegliete uno a seconda del caso)<br>
