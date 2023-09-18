@@ -11,7 +11,7 @@ La cartella `vault` contiene gli appunti a partire dai sistemi lineare in poi, c
 Il file `main.pdf` è il pdf contenente tutta la prima parte prima dei sistemi lineari.<br>
 il file `main.tex` è il file che contiene il codice LaTex di `main.pdf` <br>
 
-Consiglio di aprire la cartella `Vault` (e sottolineo, la cartella `Vault`, non la cartella root) dal software Obsidian
+- Consiglio di aprire la cartella `Vault` (e sottolineo, la cartella `Vault`, non la cartella root) dal software Obsidian
 perche è proprio usando obsidian che ho scritto questi appunti 
 quindi, nonostante sia semplice markdown, consiglio di usare l'app in questione
 perchè sicuramente avrete una visione migliore dato che "vault" contiene le 
@@ -21,7 +21,7 @@ in maniera normale" (ossia in maniera limitata) dovrete andare nelle impostazion
 dell'editor e togliere la spunta da "vim mode" o qualcosa del genere). 
 
 
-2. Ci sono parecchi files, (non tutti purtroppo, mi sono fermato alle spline) per 
+- Ci sono parecchi files, (non tutti purtroppo, mi sono fermato alle spline) per 
 visualizzarli meglio nell'insieme dovrete aprire la canvas `Calcolo Numerico` che si trova
 in mazzo a tutti gli altri files. <br>
 Non è altro che una mappa, obsidian con il suo plugin di stock ve la mostrerà,
