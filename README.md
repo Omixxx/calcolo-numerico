@@ -59,7 +59,7 @@ dovete:
 
 ## Segnalazione errori
 Noterete sicuramente errori di qui e di la, questo è dato dal fatto che sono un essere umano, ancora per lo meno, e soprattutto 
-non sono un matematico, anzi, sono abbastanza scarso in questa materia (lo si capisce dal fatto che ho messo su tutto questo casino 
+non sono un matematico, anzi, la mia scarsezza in materia è abbastanza evidente (lo si capisce dal fatto che ho messo su tutto questo casino 
 solo per passare l'esame ^.^ ) <br>
 Quindi, quando troverete qualche errore, potete aprire direttamente una issue qui su github. <br>
 
