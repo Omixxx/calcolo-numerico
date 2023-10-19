@@ -1,14 +1,14 @@
 ![](https://github.com/Omixxx/calcolo-numerico/blob/master/appunti.gif)
 Ciao! benvenuto/a agli appunti del TüT!
  
-Allora, al fine di ottimizzare il tuo eventuale consumo di questo materiale ti 
+Allora, al fine di ottimizzare l'eventuale consumo di questo materiale ti 
 spiego un attimo come utilizzarlo al meglio. 
 
 
 ## Intro 
 
 La cartella `Vault` contiene gli appunti a partire dai sistemi lineare in poi, con qualche accenno alla prima parte <br>
-Il file `main.pdf` è il pdf contenente tutta la prima parte prima dei sistemi lineari.<br>
+Il file `main.pdf` è il pdf contenente tutta la parte prima dei sistemi lineari.<br>
 il file `main.tex` è il file che contiene il codice LaTex di `main.pdf` <br>
 
 - Consiglio di aprire la cartella `Vault` (e sottolineo, la cartella `Vault`, non la cartella root) dal software Obsidian
