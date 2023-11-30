@@ -17,7 +17,7 @@ quindi, nonostante sia semplice markdown, consiglio di usare l'app in questione
 perchè sicuramente avrete una visione migliore dato che "vault" contiene le 
 mie personali impostazioni (ho attiva la vim mode tra l'altro, quindi
 se volete "scrivere 
-in maniera normale" (ossia in maniera limitata) dovrete andare nelle impostazioni
+in maniera normale" dovrete andare nelle impostazioni
 dell'editor e togliere la spunta da "vim mode" o qualcosa del genere). 
 
 
