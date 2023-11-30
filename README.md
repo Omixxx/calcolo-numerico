@@ -47,7 +47,7 @@ la sezione del plugin in questione dalle sue impostazioni per trovare tutte le s
 premere `/` dopo un equazione trasformerà la stessa in una frazione)  <br>
 Il punto è che se imparate come scrivere latex e smanettate un po dovreste già avere tutto avviato, con molti snippets da poter usare. <br>
 
-Per qanto riguarda l'aggiunta effettiva di materiale ricordate di rimanere concisi, precisi, e soprattuto chiari. <br>
+Per quanto riguarda l'aggiunta effettiva di materiale ricordate di rimanere concisi, precisi, e soprattuto chiari. <br>
 Ogni nota che create deve seguire uno dei due templates presenti (`ctrl+p` -> template -> ne scegliete uno a seconda del caso)<br>
 Aggiungete materiale atomico, ossia, una nota per concetto.<br>
 Potete linkare argomenti tramite le doppie parentesi quadre [[esempio]]<br><br>
