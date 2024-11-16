@@ -1,8 +1,7 @@
-![](https://github.com/Omixxx/calcolo-numerico/blob/master/appunti.gif)
-Ciao! benvenuto/a agli appunti del TüT! 🥳
- 
+![](https://github.com/Omixxx/calcolo-numerico/blob/master/appunti.gif) 
 
 ## 🐸 Intro 
+Ciao! benvenuto/a agli appunti del TüT! 🥳
 
 - Il file `main.pdf` è il primo approccio verso degli appunti ben organizzati. E' stato poi abbandonato in favore di una struttra formata da file markdown.<br>
 - La cartella `Vault` contiene gli appunti che seguono gli argomenti successivi a quelli trattati nel pdf <br>
